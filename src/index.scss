@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 1.5rem;
+  font-family: 'Open Sans Condensed';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+
+.alert{
+  line-height: 10vh;
+  text-align: center;
+  height: 10vh;
+  width: 40vh;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.alert--error{
+  background-color: red;
+}
+
+.alert--success{
+  background-color: #7dd56f;
+}
+
+
