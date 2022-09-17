@@ -9,7 +9,7 @@ export const getAllShopDatas = async () => {
         })
 
         const newdatas = res.data.data.shopdatas
-        console.log(newdatas)
+        // console.log(newdatas)
         return newdatas
     } catch (err) {
 
